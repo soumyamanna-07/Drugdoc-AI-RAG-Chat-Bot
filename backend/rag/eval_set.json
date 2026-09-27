@@ -1,0 +1,20 @@
+﻿[
+  {"q": "What is the maximum daily dose of metformin?", "expect": "APPROVED", "chunk": "met-dose-1", "facts": [["2550"]]},
+  {"q": "What is the starting dose of metformin for adults?", "expect": "APPROVED", "chunk": "met-dose-1", "facts": [["500"]]},
+  {"q": "Who should not take metformin?", "expect": "APPROVED", "chunk": "met-ci-1", "facts": [["renal", "kidney"]]},
+  {"q": "What are the common side effects of metformin?", "expect": "APPROVED", "chunk": "met-ar-1", "facts": [["diarrhea"], ["nausea"]]},
+  {"q": "What is metformin used for?", "expect": "APPROVED", "chunk": "met-ind-1", "facts": [["diabetes"]]},
+  {"q": "What serious warning does metformin have?", "expect": "APPROVED", "chunk": "met-bw-1", "facts": [["lactic acidosis"]]},
+  {"q": "What is the dose of amoxicillin for severe infections?", "expect": "APPROVED", "chunk": "amx-dose-1", "facts": [["875"]]},
+  {"q": "What is the amoxicillin dose for a mild ear infection?", "expect": "APPROVED", "chunk": "amx-dose-1", "facts": [["500", "250"]]},
+  {"q": "Who should not take amoxicillin?", "expect": "APPROVED", "chunk": "amx-ci-1", "facts": [["hypersensitivity", "allerg", "anaphylaxis"]]},
+  {"q": "What infections does amoxicillin treat?", "expect": "APPROVED", "chunk": "amx-ind-1", "facts": [["ear", "throat", "respiratory", "skin"]]},
+  {"q": "Can people with severe kidney problems take metformin?", "expect": "APPROVED", "chunk": "met-ci-1", "facts": [["contraindicated", "should not", "must not", "not be", "cannot"]]},
+  {"q": "Can children take metformin?", "expect": "APPROVED", "chunk": "met-ind-1", "facts": [["10 years", "10 and older", "pediatric"]]},
+  {"q": "What is the dose of ibuprofen?", "expect": "ESCALATED"},
+  {"q": "Can I take metformin with atorvastatin?", "expect": "ESCALATED"},
+  {"q": "What is the dose of paracetamol for fever?", "expect": "ESCALATED"},
+  {"q": "What is the weather in Kolkata?", "expect": "ESCALATED"},
+  {"q": "Who won the cricket match yesterday?", "expect": "ESCALATED"},
+  {"q": "Is metformin safe during pregnancy?", "expect": "ESCALATED"}
+]

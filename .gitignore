@@ -1,0 +1,66 @@
+# ─────────────────────────────────────────────
+# Local runtime data
+# ─────────────────────────────────────────────
+
+data/uploads/
+data/vector_db/
+data/audit/
+data/lancedb_data/
+
+# Legacy/alternate LanceDB location, if still used locally
+backend/rag/lancedb_data/
+
+# Local databases
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+
+# ─────────────────────────────────────────────
+# Frontend build / dependencies
+# ─────────────────────────────────────────────
+
+DrugDocAI-Frontend/dist/
+DrugDocAI-Frontend/node_modules/
+
+# ─────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────
+
+.venv311/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# ─────────────────────────────────────────────
+# Secrets / environment
+# ─────────────────────────────────────────────
+
+.env
+.env.*
+!.env.example
+
+# ─────────────────────────────────────────────
+# Models / local ML data
+# ─────────────────────────────────────────────
+
+models/
+*.faiss
+*.pkl
+chroma_db/
+
+# ─────────────────────────────────────────────
+# Editor / OS
+# ─────────────────────────────────────────────
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+calib/calibration_questions.csv
+calib/calibration_report.json
+
+data/*.jsonl
+data/analytics.jsonl
